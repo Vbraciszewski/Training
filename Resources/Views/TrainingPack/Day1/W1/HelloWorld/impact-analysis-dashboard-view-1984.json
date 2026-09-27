@@ -1,0 +1,39 @@
+{
+  "stickies" : [ ],
+  "stickyPositions" : [ ],
+  "plots" : [ {
+    "variables" : [ "x" ],
+    "independentVariable" : "time",
+    "x" : 0.0,
+    "y" : 0.0,
+    "width" : 10.0,
+    "height" : 2.0,
+    "title" : "analyze-dashboard-item-d77009d0-36d4-4993-b1b0-887147872720",
+    "config" : {
+      "type" : "LINE",
+      "layout" : {
+        "title" : {
+          "text" : "Plot 2"
+        }
+      },
+      "common" : { },
+      "variables" : { }
+    },
+    "axes" : {
+      "x" : {
+        "type" : "default"
+      }
+    }
+  } ],
+  "globalConfig" : {
+    "plot" : {
+      "common" : {
+        "showTitle" : true,
+        "colorMode" : "variable"
+      }
+    },
+    "experiment" : { }
+  },
+  "version" : "1",
+  "name" : "impact-analysis-dashboard-view-1984"
+}

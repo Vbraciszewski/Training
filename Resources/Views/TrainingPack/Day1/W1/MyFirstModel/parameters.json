@@ -1,0 +1,29 @@
+{
+  "stickies" : [ "mass.m", "mass2.m", "mass.s", "mass2.s" ],
+  "stickyPositions" : [ {
+    "component" : "mass2",
+    "x" : 20.09,
+    "y" : -31.09
+  }, {
+    "component" : "mass",
+    "x" : -56.79,
+    "y" : -32.19
+  } ],
+  "plots" : [ {
+    "variables" : [ "mass.s", "mass2.s" ],
+    "independentVariable" : "time",
+    "x" : -58.92,
+    "y" : -81.69,
+    "width" : 500.0,
+    "height" : 300.0,
+    "title" : "Plot 1",
+    "config" : {
+      "type" : "LINE",
+      "layout" : { },
+      "common" : { },
+      "variables" : { }
+    }
+  } ],
+  "version" : "1",
+  "name" : "Parameters"
+}

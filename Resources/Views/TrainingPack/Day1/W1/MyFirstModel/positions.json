@@ -1,0 +1,21 @@
+{
+  "stickies" : [ ],
+  "stickyPositions" : [ ],
+  "plots" : [ {
+    "variables" : [ "mass.s", "mass2.s" ],
+    "independentVariable" : "time",
+    "x" : -59.73,
+    "y" : -53.87,
+    "width" : 500.0,
+    "height" : 300.0,
+    "title" : "Plot 1",
+    "config" : {
+      "type" : "LINE",
+      "layout" : { },
+      "common" : { },
+      "variables" : { }
+    }
+  } ],
+  "version" : "1",
+  "name" : "Positions"
+}

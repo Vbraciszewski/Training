@@ -3,7 +3,7 @@ package ComponentDesign
     package Components
         model ElasticShaft
             .Modelica.Mechanics.Rotational.Components.Inertia inertia1(J = J1) annotation(Placement(transformation(extent = {{-50,-10},{-30,10}},origin = {0,0},rotation = 0)));
-            .Modelica.Mechanics.Rotational.Components.SpringDamper springDamper(c=c,d=d) annotation(Placement(transformation(extent = {{-10,-10},{10,10}},origin = {0,0},rotation = 0)));
+            .Modelica.Mechanics.Rotational.Components.SpringDamper springDamper(c=c,d=d) annotation(Placement(transformation(extent = {{-10.0,-10.0},{10.0,10.0}},origin = {0.0,0.0},rotation = 0.0)));
             .Modelica.Mechanics.Rotational.Components.Inertia inertia2(J = J2) annotation(Placement(transformation(extent = {{30,-10},{50,10}},origin = {0,0},rotation = 0)));
             .Modelica.Mechanics.Rotational.Interfaces.Flange_a flange_a annotation(Placement(transformation(extent = {{-110,-10},{-90,10}},origin = {0,0},rotation = 0)));
             .Modelica.Mechanics.Rotational.Interfaces.Flange_b flange_b annotation(Placement(transformation(extent = {{90,-10},{110,10}},origin = {0,0},rotation = 0)));

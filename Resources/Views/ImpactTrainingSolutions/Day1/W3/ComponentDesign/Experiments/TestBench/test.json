@@ -1,0 +1,39 @@
+{
+  "stickies" : [ "wallSegment.outerLayer.port_b.T" ],
+  "stickyPositions" : [ {
+    "component" : "wallSegment",
+    "x" : -6.1,
+    "y" : -15.82
+  } ],
+  "plots" : [ {
+    "variables" : [ "wallSegment.isolationHeatCapacity.T" ],
+    "independentVariable" : "time",
+    "x" : -205.08,
+    "y" : -102.84,
+    "width" : 500.0,
+    "height" : 300.0,
+    "title" : "Plot 1",
+    "config" : {
+      "type" : "LINE",
+      "layout" : { },
+      "common" : { },
+      "variables" : { }
+    }
+  }, {
+    "variables" : [ "wallSegment.outerLayer.port_b.T" ],
+    "independentVariable" : "time",
+    "x" : -169.73,
+    "y" : 14.72,
+    "width" : 500.0,
+    "height" : 300.0,
+    "title" : "Plot 2",
+    "config" : {
+      "type" : "LINE",
+      "layout" : { },
+      "common" : { },
+      "variables" : { }
+    }
+  } ],
+  "version" : "1",
+  "name" : "test"
+}
